@@ -1,5 +1,24 @@
-config.yaml
-logs/
-reports/
+# Python environment
+venv/
 __pycache__/
 *.pyc
+
+# Secrets and config
+config.yaml
+
+# Logs
+logs/
+*.log
+
+# Reports and snapshots
+reports/
+*.json
+
+# System files
+.DS_Store
+
+# Shell scripts (optional if personal)
+*.sh
+
+# Ignore screenshots or temp images
+*.png
